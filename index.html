@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+    <title>golfScoreConter</title>
+</head>
+
+<body>
+    <div class="showcase">
+        <div class="board">
+                <h1>Golf Score Counter</h1>
+            <form id="form">
+                    <img src="./img/golf-cart.png" alt="">
+                <div class="container">
+                    <p>This hole is Par</p>
+                    <input type="number" id="parInput" required />
+                </div>
+                <div class="container">
+                    <p>Your Stroke is</p>
+                    <input type="number" id="scoreInput" required />
+                </div>
+                <!-- <button>Get Result</button> -->
+                <input type="submit" value="Get Result" class="btn">
+            </form>
+            <img src="./img/golf.png" alt="">
+            <div class="container" id="result-container">
+                <p>Your result in this hole was </p>
+                <p id="dots">....</p>
+                <p id="result"></p>
+            </div>
+
+            <button id="reset" class="btn">reset</button>
+        </div>
+
+        <div class="ref">Icons made by <a href="https://www.flaticon.com/authors/swifticons" title="Swifticons">Swifticons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div class="ref">Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </div>
+
+    
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
