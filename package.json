@@ -1,7 +1,6 @@
 {
   "name": "golfscorecounter",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "gh-pages": "^2.1.1"
@@ -20,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/Queenshiba/golfScoreCounter/issues"
   },
-  "homepage": "https://github.com/Queenshiba/golfScoreCounter#readme"
+  "homepage": "https://github.com/Queenshiba/golfScoreCounter#readme",
+  "description": ""
 }
